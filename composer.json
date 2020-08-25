@@ -1,0 +1,27 @@
+{
+    "name": "wavpa/exchange-rate",
+    "description": "An exchange rate SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanglf727",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wavpa\\ExchangeRate\\": "./src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wavpa\\ExchangeRate\\ServiceProvider"
+            ]
+        }
+    }
+}
